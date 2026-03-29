@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NESSA RBZ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <div id="logo">GRAND NESSA RBZ</div>
+        <div id="menuToggle">☰</div>
+        <ul id="menu">
+            <li><a href="#imagesPrincipale">Accueil</a></li>
+            <li><a href="#Reception">Salle de réception</a></li>
+            <li><a href="#Presentation">Réserver</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#" id="voirMessages">Voir les messages</a></li>
+        </ul>
+    </nav>
+
+    <!-- IMAGE PRINCIPALE -->
+    <div id="imagesPrincipale">
+        <h1>GRAND NESSA RBZ</h1>
+        <div id="PremierTrait"></div>
+        <h3>Chambres de RBZ</h3>
+    </div>
+</header>
+
+<!-- PRESENTATION -->
+<section id="Presentation">
+    <div id="TextIntro">
+        <h2>Un lieu unique pour un séjour unique.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div id="Prestation">
+        <div class="imagesPrestations">
+            <h4>Nous trouver</h4>
+            <img src="medias1/1222_1189758572_brazzaville2.gif" alt="Brazzaville" class="zoomable">
+        </div>
+    </div>
+</section>
+
+<!-- SALLE DE RÉCEPTION -->
+<section id="Reception">
+    <h4>Salle de réception</h4>
+    <div class="ImagesReception">
+        <img src="medias1/abdul-raheem-kannath-PUshHUU_SCs-unsplash.jpg" alt="Salle de réception" class="zoomable">
+    </div>
+</section>
+
+<!-- CHAMBRES -->
+<section class="ImagesPrincipale">
+    <h4>Côté chambre</h4>
+    <div class="galerie">
+        <img src="medias1/pexels-suhel-vba-1749662-3659683.jpg" alt="Chambre" class="zoomable">
+        <img src="medias1/pexels-enginakyurt-2725675.jpg" alt="Chambre" class="zoomable">
+        <img src="medias1/pexels-fotoaibe-1743231.jpg" alt="Chambre" class="zoomable">
+        <img src="medias1/pexels-itsterrymag-2631746.jpg" alt="Chambre" class="zoomable">
+    </div>
+</section>
+
+<!-- CUISINE -->
+<section class="ImagesCuisine">
+    <h4>Côté cuisine</h4>
+    <img src="medias1/zac-gudakov-hNKl4PQNVNo-unsplash.jpg" alt="Cuisine" class="zoomable">
+</section>
+
+<!-- TOURISME -->
+<section id="Tourisme">
+    <h2>Et tant à découvrir</h2>
+    <div class="tourisme-grid">
+        <div>
+            <p>Les champs Touristique</p>
+            <img src="medias1/pexels-candelario-benitez-22211869-32348589.jpg" alt="Tourisme" class="zoomable">
+        </div>
+        <div>
+            <p>Les îles des campagnes</p>
+            <img src="medias1/pexels-leorossatti-2598683.jpg" alt="Iles" class="zoomable">
+        </div>
+        <div>
+            <p>Les champs de la Bouanza</p>
+            <img src="medias1/pexels-felix-mittermeier-1080400.jpg" alt="Champs" class="zoomable">
+        </div>
+        <div>
+            <p>Les montagnes des zones actives</p>
+            <img src="medias1/pexels-peter-de-vink-288978-849390.jpg" alt="Montagne" class="zoomable">
+        </div>
+    </div>
+</section>
+
+<!-- LISTE CONTACTS -->
+<section id="ListeContacts" style="display:none;">
+    <h2>Liste des utilisateurs qui ont contacté l'hôtel Grand NESSA RBZ</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Prénom</th>
+                <th>Nom</th>
+                <th>Adresse</th>
+                <th>Numéro</th>
+                <th>Email</th>
+                <th>Message</th>
+                <th>Date</th>
+                <th>Heure</th>
+            </tr>
+        </thead>
+        <tbody id="contactBody">
+            <tr>
+                <td>Jean</td>
+                <td>Dupont</td>
+                <td>Brazzaville</td>
+                <td>+24200000</td>
+                <td>jean@mail.com</td>
+                <td>Test message</td>
+                <td>19/02/2026</td>
+                <td>10:00</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <h2 id="Contact">Contactez-nous</h2>
+    <form id="contactForm">
+        <input type="text" name="prenom" placeholder="Prénom" required>
+        <input type="text" name="nom" placeholder="Nom" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <input type="text" name="adresse" placeholder="Adresse">
+        <input type="tel" name="numero" placeholder="Numéro">
+        <input type="time" name="heure">
+        <textarea name="message" placeholder="Votre message ici" required></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+</footer>
+
+<!-- LIGHTBOX -->
+<div id="lightbox">
+    <img src="" id="lightboxImg">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
